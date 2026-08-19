@@ -3,7 +3,7 @@ deploy_dbt_airbnb:
   outputs:
     dev:
       type: snowflake
-      account: https://okskcps-yz72570
+      account: bc80505.us-east-2.aws
 
       # User/password auth
       user: dbt_user1
@@ -19,7 +19,7 @@ deploy_dbt_airbnb:
       client_session_keep_alive: False
     prod:
       type: snowflake
-      account: https://okskcps-yz72570.snowflakecomputing.com
+      account: bc80505.us-east-2.aws
 
       # User/password auth
       user: dbt_user1
