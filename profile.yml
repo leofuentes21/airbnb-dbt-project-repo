@@ -3,7 +3,7 @@ deploy_dbt_airbnb:
   outputs:
     dev:
       type: snowflake
-      account: https://okskcps-yz72570.snowflakecomputing.com
+      account: https://okskcps-yz72570
 
       # User/password auth
       user: dbt_user1
